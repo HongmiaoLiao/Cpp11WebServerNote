@@ -1,0 +1,4 @@
+/root/cmake-3.24.3-linux-x86_64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/usr/bin/gcc -G "CodeBlocks - Unix Makefiles" /root/modernCppWebServer/tmp/tmp.jjdUAfTM05
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/modernCppWebServer/tmp/tmp.jjdUAfTM05/cmake-build-debug-remote-host

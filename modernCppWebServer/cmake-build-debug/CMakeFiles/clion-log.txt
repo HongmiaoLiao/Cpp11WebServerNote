@@ -1,0 +1,4 @@
+CMake executable not found: /root/cmake-3.24.3-linux-x86_64/bin/cmake Configure Disable profile
+
+Cannot get compiler information:
+	Unable to create a temporary file

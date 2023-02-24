@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="4c220cd3-037f-419c-a990-adea17d1e64e" name="192.168.100.149">
+        <fileTransfer rootFolder="/root" accessType="SFTP" host="192.168.149.100" port="22" sshConfigId="399f328e-9a31-48fd-a390-06697bbad96c" sshConfig="root@192.168.149.100:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="4231306e-54f9-48cc-8948-b2418bbbac5c" name="CsimpleDatabase">
+        <fileTransfer rootFolder="/root/CsimpleDB" accessType="SFTP" host="192.168.149.100" port="22" sshConfigId="399f328e-9a31-48fd-a390-06697bbad96c" sshConfig="root@192.168.149.100:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

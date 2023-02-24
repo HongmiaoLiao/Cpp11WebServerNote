@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="192.168.100.149" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="192.168.100.149">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/TinyWebServer" local="$PROJECT_DIR$" web="/" />
+            <mapping local="" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="CsimpleDatabase">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="Remote Host (0c33c084-bc80-4f61-9705-1010aec38f30)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/tmp/tmp.bE654QSGI4" local="$PROJECT_DIR$" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

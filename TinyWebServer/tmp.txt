@@ -1,0 +1,1 @@
+g++ main.cpp ./CGImysql/sql_connection_pool.cpp ./http/http_conn.cpp ./lock/locker.h ./log/block_queue.h ./log/log.cpp ./threadpool/threadpool.h ./timer/lst_timer.cpp webserver.cpp config.cpp -o server -l pthread -l mysqlclient
