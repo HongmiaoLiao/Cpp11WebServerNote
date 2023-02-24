@@ -1,37 +1,11 @@
 # Cpp11_14TinyWebserver
 
 #### 介绍
-https://github.com/markparticle/WebServer和https://github.com/qinguoyi/TinyWebServer的学习笔记，包含带注释的手动抄写的代码以及对每个文件的笔记
+https://github.com/markparticle/WebServer和https://github.com/qinguoyi/TinyWebServer的学习笔记，包含带我写的注释的代码以及对每个C++11/14代码文件的笔记
 
-#### 软件架构
-软件架构说明
+笔记中包含：项目中用到的标准库函数以及C++关键词的使用说明；各个类的成员变量及各类构造函数、析构函数和成员函数等的大致实现和一些我觉得要注意的细节。
 
-
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+我写（认真读过，一行行手动写下的带注释的代码应该不能完全算抄吧）的代码文件在modernCppWebServer文件夹、TinyWebServer文件夹，[WebServer-master](https://github.com/markparticle/WebServer)和[TinyWebServer-master](https://github.com/qinguoyi/TinyWebServer)文件夹为没有修改过的直接下载的大佬开源的学习项目。我的笔记文件和WebServer-master/code下的各个类所在位置一一对应。
 
 
-#### 特技
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
