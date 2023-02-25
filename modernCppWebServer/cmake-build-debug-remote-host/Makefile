@@ -129,6 +129,30 @@ modernCppWebServer/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/modernCppWebServer.dir/build.make CMakeFiles/modernCppWebServer.dir/build
 .PHONY : modernCppWebServer/fast
 
+buffer/buffer.o: buffer/buffer.cpp.o
+.PHONY : buffer/buffer.o
+
+# target to build an object file
+buffer/buffer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/modernCppWebServer.dir/build.make CMakeFiles/modernCppWebServer.dir/buffer/buffer.cpp.o
+.PHONY : buffer/buffer.cpp.o
+
+buffer/buffer.i: buffer/buffer.cpp.i
+.PHONY : buffer/buffer.i
+
+# target to preprocess a source file
+buffer/buffer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/modernCppWebServer.dir/build.make CMakeFiles/modernCppWebServer.dir/buffer/buffer.cpp.i
+.PHONY : buffer/buffer.cpp.i
+
+buffer/buffer.s: buffer/buffer.cpp.s
+.PHONY : buffer/buffer.s
+
+# target to generate assembly for a file
+buffer/buffer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/modernCppWebServer.dir/build.make CMakeFiles/modernCppWebServer.dir/buffer/buffer.cpp.s
+.PHONY : buffer/buffer.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -162,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... modernCppWebServer"
+	@echo "... buffer/buffer.o"
+	@echo "... buffer/buffer.i"
+	@echo "... buffer/buffer.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

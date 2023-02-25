@@ -129,7 +129,8 @@ dynamic_cast < type-id > ( expression )
 // 当从基类类型转换为派生类类型时，请使用dynamic_cast。它检查被强制转换的对象实际上是派生类类型，如果对象不是所需类型(除非您强制转换为引用类型——然后抛出bad_cast异常)则返回空指针。
 // 如果不需要这个额外的检查，请使用static_cast。由于dynamic_cast执行额外的检查，它需要RTTI信息，因此有更大的运行时开销，而static_cast在编译时执行。通常使用 static_cast 转换数值数据类型
 
-
+// size_t是sizeof、_Alignof(自C11起)和offsetof的结果的无符号整数类型，取决于数据模型。
+size_t
 ```
 
 ## 笔记记录

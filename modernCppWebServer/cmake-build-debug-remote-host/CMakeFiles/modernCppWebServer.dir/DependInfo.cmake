@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/buffer/buffer.cpp" "CMakeFiles/modernCppWebServer.dir/buffer/buffer.cpp.o" "gcc" "CMakeFiles/modernCppWebServer.dir/buffer/buffer.cpp.o.d"
   "/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/main.cpp" "CMakeFiles/modernCppWebServer.dir/main.cpp.o" "gcc" "CMakeFiles/modernCppWebServer.dir/main.cpp.o.d"
   )
 

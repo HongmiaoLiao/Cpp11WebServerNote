@@ -3,4 +3,4 @@ project(modernCppWebServer)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(modernCppWebServer main.cpp pool/threadpool.h)
+add_executable(modernCppWebServer main.cpp pool/threadpool.h buffer/buffer.h buffer/buffer.cpp)
