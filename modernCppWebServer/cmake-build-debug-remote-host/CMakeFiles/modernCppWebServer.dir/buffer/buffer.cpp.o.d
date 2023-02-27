@@ -1,21 +1,24 @@
-CMakeFiles/modernCppWebServer.dir/main.cpp.o: \
- /root/modernCppWebServer/tmp/tmp.jjdUAfTM05/main.cpp \
- /usr/include/stdc-predef.h /usr/include/c++/4.8.2/iostream \
+CMakeFiles/modernCppWebServer.dir/buffer/buffer.cpp.o: \
+ /root/modernCppWebServer/tmp/tmp.jjdUAfTM05/buffer/buffer.cpp \
+ /usr/include/stdc-predef.h \
+ /root/modernCppWebServer/tmp/tmp.jjdUAfTM05/buffer/buffer.h \
+ /usr/include/c++/4.8.2/cstring \
  /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/bits/wordsize.h \
  /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/os_defines.h \
  /usr/include/features.h /usr/include/sys/cdefs.h \
  /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
  /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/cpu_defines.h \
+ /usr/include/string.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stddef.h \
+ /usr/include/xlocale.h /usr/include/c++/4.8.2/iostream \
  /usr/include/c++/4.8.2/ostream /usr/include/c++/4.8.2/ios \
  /usr/include/c++/4.8.2/iosfwd /usr/include/c++/4.8.2/bits/stringfwd.h \
  /usr/include/c++/4.8.2/bits/memoryfwd.h \
  /usr/include/c++/4.8.2/bits/postypes.h /usr/include/c++/4.8.2/cwchar \
  /usr/include/wchar.h /usr/include/stdio.h \
  /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdarg.h \
- /usr/include/bits/wchar.h \
- /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stddef.h \
- /usr/include/xlocale.h /usr/include/c++/4.8.2/exception \
+ /usr/include/bits/wchar.h /usr/include/c++/4.8.2/exception \
  /usr/include/c++/4.8.2/bits/atomic_lockfree_defines.h \
  /usr/include/c++/4.8.2/bits/exception_ptr.h \
  /usr/include/c++/4.8.2/bits/exception_defines.h \
@@ -91,35 +94,19 @@ CMakeFiles/modernCppWebServer.dir/main.cpp.o: \
  /usr/include/c++/4.8.2/bits/locale_facets.tcc \
  /usr/include/c++/4.8.2/bits/basic_ios.tcc \
  /usr/include/c++/4.8.2/bits/ostream.tcc /usr/include/c++/4.8.2/istream \
- /usr/include/c++/4.8.2/bits/istream.tcc \
- /root/modernCppWebServer/tmp/tmp.jjdUAfTM05/./pool/threadpool.h \
- /usr/include/c++/4.8.2/mutex /usr/include/c++/4.8.2/tuple \
- /usr/include/c++/4.8.2/utility /usr/include/c++/4.8.2/bits/stl_relops.h \
- /usr/include/c++/4.8.2/array /usr/include/c++/4.8.2/stdexcept \
- /usr/include/c++/4.8.2/bits/uses_allocator.h \
- /usr/include/c++/4.8.2/chrono /usr/include/c++/4.8.2/ratio \
- /usr/include/c++/4.8.2/limits /usr/include/c++/4.8.2/ctime \
- /usr/include/c++/4.8.2/functional /usr/include/c++/4.8.2/typeinfo \
- /usr/include/c++/4.8.2/system_error \
- /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/error_constants.h \
- /usr/include/c++/4.8.2/condition_variable /usr/include/c++/4.8.2/queue \
- /usr/include/c++/4.8.2/deque /usr/include/c++/4.8.2/bits/stl_construct.h \
+ /usr/include/c++/4.8.2/bits/istream.tcc /usr/include/unistd.h \
+ /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h \
+ /usr/include/sys/uio.h /usr/include/bits/uio.h \
+ /usr/include/c++/4.8.2/vector \
+ /usr/include/c++/4.8.2/bits/stl_construct.h \
  /usr/include/c++/4.8.2/ext/alloc_traits.h \
  /usr/include/c++/4.8.2/bits/alloc_traits.h \
  /usr/include/c++/4.8.2/bits/ptr_traits.h \
  /usr/include/c++/4.8.2/bits/stl_uninitialized.h \
- /usr/include/c++/4.8.2/bits/stl_deque.h \
- /usr/include/c++/4.8.2/bits/deque.tcc /usr/include/c++/4.8.2/vector \
  /usr/include/c++/4.8.2/bits/stl_vector.h \
  /usr/include/c++/4.8.2/bits/stl_bvector.h \
- /usr/include/c++/4.8.2/bits/vector.tcc \
- /usr/include/c++/4.8.2/bits/stl_heap.h \
- /usr/include/c++/4.8.2/bits/stl_queue.h /usr/include/c++/4.8.2/thread \
- /usr/include/c++/4.8.2/memory /usr/include/c++/4.8.2/bits/stl_tempbuf.h \
- /usr/include/c++/4.8.2/bits/stl_raw_storage_iter.h \
- /usr/include/c++/4.8.2/ext/concurrence.h \
- /usr/include/c++/4.8.2/bits/unique_ptr.h \
- /usr/include/c++/4.8.2/bits/shared_ptr.h \
- /usr/include/c++/4.8.2/bits/shared_ptr_base.h \
- /usr/include/c++/4.8.2/backward/auto_ptr.h \
+ /usr/include/c++/4.8.2/bits/vector.tcc /usr/include/c++/4.8.2/atomic \
+ /usr/include/c++/4.8.2/bits/atomic_base.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdbool.h \
  /usr/include/c++/4.8.2/cassert /usr/include/assert.h

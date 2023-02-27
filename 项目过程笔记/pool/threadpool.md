@@ -1,7 +1,5 @@
 # pool/threadpool.h
 
-对应于threadpool/threadpool.h
-
 ## 使用库
 
 * mutex头文件，具有允许代码关键部分并发执行互斥的功能，允许显式地避免数据争用。
@@ -135,9 +133,11 @@ size_t
 
 ## 笔记记录
 
+线程池类，用于线程的创建，任务的添加
+
 私有成员变量：
 
-* 一个线程池的智能指针
+* std::shared_ptr\<Pool> pool_，一个线程池的智能指针
   * 将互斥锁、条件遍历、关闭标识以及任务队列放在一个结构体内，由智能指针管理任务队列资源
 
 有参构造函数：
@@ -171,3 +171,29 @@ size_t
   * 将任务队列上锁。这里大括号作用域同析构函数所述。
   * 将任务加入任务队列，这里使用的是forward函数而不是move，因为Rvalue经由一个接收参数为T&&类型的函数接收后，转发过程这个Rvalue变成了一个named object，不再是Rvalue（侯捷老师在C++新特性课程讲过），使用forward可以完美转发
   * 取消阻塞正在等待条件变量的一个线程（让它去执行任务）
+
+## 测试
+
+注意在编译选项加上 -pthread
+
+```C++
+#include <iostream>
+#include "./pool/threadpool.h"
+#include <ctime>
+
+int main() {
+    ThreadPool threadPool(8);
+    for (int i = 0; i < 100; ++i) {
+        threadPool.AddTask([i](){
+           std::cout << time(nullptr) << "----" << i << std::endl;
+        });
+    }
+    std::cout << "Hello, World!" << std::endl;
+    while(true) {
+
+    }
+    return 0;
+}
+```
+
+防止主程序过快结束，就加了一个死循环，因为是多线程，所以输出格式会有一些地方出现混乱，输出内容没有问题
