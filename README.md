@@ -9,6 +9,6 @@ github上[markparticle/WebServer](https://github.com/markparticle/WebServer)和[
 我写（认真读过，一行行手动写下的带注释的代码应该不能完全算抄吧）的代码文件在modernCppWebServer文件夹、TinyWebServer文件夹，[WebServer-master](https://github.com/markparticle/WebServer)和[TinyWebServer-master](https://github.com/qinguoyi/TinyWebServer)文件夹为没有修改过的直接下载的大佬开源的学习项目。我的笔记文件和WebServer-master/code下的各个类所在位置一一对应。
 
 TinyWebServer下的风格和Java类似，采用驼峰法
-modernCppWebServer下的风格采用[谷歌开源风格指南](https://zh-google-styleguide.readthedocs.io/en/latest/contents/)
+modernCppWebServer下的风格采用[谷歌开源风格指南](https://zh-google-styleguide.readthedocs.io/en/latest/contents/)，都和原作者有一些风格上的出入
 
 代码引用拓扑结构的拓扑顺序也是我的学习顺序
