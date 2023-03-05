@@ -1,1 +1,1 @@
-/usr/bin/c++  -std=c++11 -pthread -g CMakeFiles/modernCppWebServer.dir/main.cpp.o CMakeFiles/modernCppWebServer.dir/buffer/buffer.cpp.o -o modernCppWebServer 
+/usr/bin/c++  -std=c++11 -pthread -g CMakeFiles/modernCppWebServer.dir/main.cpp.o CMakeFiles/modernCppWebServer.dir/buffer/buffer.cpp.o CMakeFiles/modernCppWebServer.dir/log/log.cpp.o -o modernCppWebServer 

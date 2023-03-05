@@ -89,10 +89,19 @@
 		<Unit filename="/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/log/blockqueue.h">
 			<Option target="modernCppWebServer"/>
 		</Unit>
+		<Unit filename="/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/log/log.cpp">
+			<Option target="modernCppWebServer"/>
+		</Unit>
+		<Unit filename="/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/log/log.h">
+			<Option target="modernCppWebServer"/>
+		</Unit>
 		<Unit filename="/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/main.cpp">
 			<Option target="modernCppWebServer"/>
 		</Unit>
 		<Unit filename="/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/pool/threadpool.h">
+			<Option target="modernCppWebServer"/>
+		</Unit>
+		<Unit filename="/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/test/test.h">
 			<Option target="modernCppWebServer"/>
 		</Unit>
 		<Unit filename="/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/CMakeLists.txt">

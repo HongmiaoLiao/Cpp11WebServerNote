@@ -76,7 +76,7 @@ class ThreadPool {
  private:
   struct Pool {
     std::mutex mtx;                          // 互斥锁
-    std::condition_variable cond;            // 条件变量
+    std::condition_variable cond;            // 条件变量，信号量
     bool is_closed = false;                  // 标识线程池是否关闭
     std::queue<std::function<void()>> tasks; // 任务线程的队列
   };

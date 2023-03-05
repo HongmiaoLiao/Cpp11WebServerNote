@@ -21,7 +21,7 @@ class unique_lock;
 
 ```
 
-* condition_variable头文件，声明条件变量类型:
+* condition_variable头文件，声明条件变量类型，类似信号量:
 
 ```C++
 #include <condition_variable>
@@ -29,11 +29,23 @@ class unique_lock;
 // condition_variable 类，使用 condition_variable 类在具有 mutex 类型的 unique_lock<mutex> 时等待事件。
 class condition_variable;
 
-// condition_variable 成员函数 wait，阻塞线程。
+// condition_variable 成员函数 wait，阻塞线程。在阻塞线程的时刻，函数自动调用lck.unlock()，允许其他被锁定的线程继续。
 void wait(unique_lock<mutex>& Lck);
+
+// 等待条件变量的代码必须也使用 mutex。 调用线程必须在其调用等待条件变量的函数前锁定 mutex。 
+// 然后，mutex 将在所调用的函数返回时被锁定。 mutex 在线程等待条件变为 true 时不被锁定。 因此，没有不可预知的结果，等待条件变量的每个线程必须使用同一 mutex 对象。
+// condition_variable_any 类型的对象可与任何类型的 mutex 一起使用。 所使用的 mutex 类型不一定提供 try_lock 方法。 
+// condition_variable 类型的对象只能与 unique_lock<mutex> 类型的 mutex 一起使用。 此类型的对象可能比 condition_variable_any<unique_lock<mutex>> 类型的对象快。
+
+while (condition is false)
+    wait for condition variable;
+
+
 
 // condition_variable 成员函数 notice_one，取消阻塞正在 condition_variable 对象上等待的某个线程。
 void notify_one() noexcept;
+
+// wait就是P操作，信号量减1，notice_one就是V操作，信号量加1
 
 // condition_variable 成员函数 notice_all，取消阻塞正在等待 condition_variable 对象的所有线程。
 void notify_all() noexcept;
@@ -90,6 +102,7 @@ assert(
 // shared_ptr 类，使用引用计数来管理资源的对象
 template <class T>
 class shared_ptr;
+// 如果你想要将一个原始指针分配给多个所有者（例如，从容器返回了指针副本又想保留原始指针时），请使用该指针。 直至所有 shared_ptr 所有者超出了范围或放弃所有权，才会删除原始指针。 大小为两个指针；一个用于对象，另一个用于包含引用计数的共享控制块。
 
 // make_shared 函数，创建并返回指向分配对象的 shared_ptr，这些对象是通过使用默认分配器从零个或多个参数构造的。 分配并构造指定类型的对象和shared_ptr来管理对象的共享所有权，并返回shared_ptr。
 template <class T, class... Args>

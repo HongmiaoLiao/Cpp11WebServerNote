@@ -1,15 +1,10 @@
 #include "./pool/threadpool.h"
 #include <ctime>
 #include <iostream>
+#include "./test/test.h"
 
 int main() {
-  ThreadPool threadPool(8);
-  for (int i = 0; i < 100; ++i) {
-    threadPool.AddTask(
-        [i]() { std::cout << time(nullptr) << "----" << i << std::endl; });
-  }
-  std::cout << "Hello, World!" << std::endl;
-  while (true) {
-  }
+  tmp_test::TestLog();
+  tmp_test::TestThreadPool();
   return 0;
 }
