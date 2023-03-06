@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/modernCppWebServer.dir/log/log.cpp.o.d"
   "CMakeFiles/modernCppWebServer.dir/main.cpp.o"
   "CMakeFiles/modernCppWebServer.dir/main.cpp.o.d"
+  "CMakeFiles/modernCppWebServer.dir/pool/sqlconnpool.cpp.o"
+  "CMakeFiles/modernCppWebServer.dir/pool/sqlconnpool.cpp.o.d"
   "modernCppWebServer"
   "modernCppWebServer.pdb"
 )

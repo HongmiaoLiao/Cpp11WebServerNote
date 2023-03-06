@@ -8,6 +8,7 @@
 #include <mutex>
 #include <string>
 #include <thread>
+// #include <ctime>
 #include <sys/time.h>
 #include <cstring>
 #include <cstdarg>
@@ -19,7 +20,8 @@
 
 class Log {
  public:
-  void init(int level, const char *path = "./log",
+  // 执行日志系统的初始化
+  void Init(int level, const char *path = "./log",
             const char *suffix = "./log",
             int max_queue_capacity = 1024);
 
@@ -51,28 +53,28 @@ class Log {
   void AsyncWrite_();
 
  private:
-  static const int kLogPathLen = 256;
-  static const int kLogNameLen = 256;
-  static const int kMaxLines = 50000;
+  static const int kLogPathLen = 256; // 常量，表示最大日志文件路径的长度为256（没有用上）
+  static const int kLogNameLen = 256; // 常量，表示日志文件名的最长名字为256
+  static const int kMaxLines = 50000; // 常量，表示日志文件中最大行数为50000
 
-  const char *path_;
-  const char *suffix_;
+  const char *path_;  // 字符串常量的指针，指向日志文件路径
+  const char *suffix_;  // 字符串常量的指针，指向日志文件后缀名
 
-  int max_lines_;
+  int max_lines_; // 未使用
 
-  int line_count_;
-  int today_;
+  int line_count_;  // 表示当前日志的行数
+  int today_; // 表示当前为本月第几天
 
-  bool is_open_;
+  bool is_open_;  // 表示日志系统是否开启
 
-  Buffer buff_;
-  int level_;
-  bool is_async_;
+  Buffer buff_; // 日志内容缓冲区
+  int level_; // 日志等级，一共0，1，2，3四个等级，对应debug,info,warn,error
+  bool is_async_; // 表示是否异步写入
 
-  std::FILE *fp_;
-  std::unique_ptr<BlockDeque<std::string>> deque_;
-  std::unique_ptr<std::thread> write_thread_;
-  std::mutex mtx_;
+  std::FILE *fp_; // 文件类型指针，用于对日志文件的写入
+  std::unique_ptr<BlockDeque<std::string>> deque_;  // 独占指针，指向存放日志信息的阻塞队列
+  std::unique_ptr<std::thread> write_thread_; // 独占指针，指向将日志信息写入文件的线程
+  std::mutex mtx_;  // 互斥锁，用于日志文件的互斥写入
 };
 
 #define LOG_BASE(level, format, ...) \

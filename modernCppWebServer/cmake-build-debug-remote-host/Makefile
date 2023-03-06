@@ -201,6 +201,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/modernCppWebServer.dir/build.make CMakeFiles/modernCppWebServer.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+pool/sqlconnpool.o: pool/sqlconnpool.cpp.o
+.PHONY : pool/sqlconnpool.o
+
+# target to build an object file
+pool/sqlconnpool.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/modernCppWebServer.dir/build.make CMakeFiles/modernCppWebServer.dir/pool/sqlconnpool.cpp.o
+.PHONY : pool/sqlconnpool.cpp.o
+
+pool/sqlconnpool.i: pool/sqlconnpool.cpp.i
+.PHONY : pool/sqlconnpool.i
+
+# target to preprocess a source file
+pool/sqlconnpool.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/modernCppWebServer.dir/build.make CMakeFiles/modernCppWebServer.dir/pool/sqlconnpool.cpp.i
+.PHONY : pool/sqlconnpool.cpp.i
+
+pool/sqlconnpool.s: pool/sqlconnpool.cpp.s
+.PHONY : pool/sqlconnpool.s
+
+# target to generate assembly for a file
+pool/sqlconnpool.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/modernCppWebServer.dir/build.make CMakeFiles/modernCppWebServer.dir/pool/sqlconnpool.cpp.s
+.PHONY : pool/sqlconnpool.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -219,6 +243,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... pool/sqlconnpool.o"
+	@echo "... pool/sqlconnpool.i"
+	@echo "... pool/sqlconnpool.s"
 .PHONY : help
 
 

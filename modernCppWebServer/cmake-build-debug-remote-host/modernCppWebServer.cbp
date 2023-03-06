@@ -98,6 +98,15 @@
 		<Unit filename="/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/main.cpp">
 			<Option target="modernCppWebServer"/>
 		</Unit>
+		<Unit filename="/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/pool/sqlconnRAII.h">
+			<Option target="modernCppWebServer"/>
+		</Unit>
+		<Unit filename="/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/pool/sqlconnpool.cpp">
+			<Option target="modernCppWebServer"/>
+		</Unit>
+		<Unit filename="/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/pool/sqlconnpool.h">
+			<Option target="modernCppWebServer"/>
+		</Unit>
 		<Unit filename="/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/pool/threadpool.h">
 			<Option target="modernCppWebServer"/>
 		</Unit>
