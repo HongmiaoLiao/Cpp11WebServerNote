@@ -102,6 +102,7 @@ void Log::Init(int level, const char *path, const char *suffix,
   }
 }
 
+// 根据初始化的信息和当前时间，实现对可变参数内容的写入操作
 void Log::Write(int level, const char *format, ...) {
   struct timeval now = {0, 0};
   // 获取现在的时间戳，now里面是1970以来的秒和毫秒

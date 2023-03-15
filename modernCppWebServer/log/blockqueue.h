@@ -53,7 +53,7 @@ class BlockDeque {
   // 当双端队列非空时，从双端队列头部弹出一个元素，否则阻塞timeout秒
   bool Pop(T &item, int timeout);
 
-  // 释放一个消费者信号量
+  // 释放一个消费者条件变量
   void Flush();
 
  private:
@@ -65,9 +65,9 @@ class BlockDeque {
 
   bool is_close_; // 标识阻塞队列是否关闭
 
-  std::condition_variable cond_consumer_; // 用于消费者的信号量，用于在队列为空的时候阻塞，不为空时访问
+  std::condition_variable cond_consumer_; // 用于消费者的条件变量，用于在队列为空的时候阻塞，不为空时访问
 
-  std::condition_variable cond_producer_; // 用于生产者的信号量，用于在队列满时阻塞，不满时访问
+  std::condition_variable cond_producer_; // 用于生产者的条件变量，用于在队列满时阻塞，不满时访问
 };
 
 template<typename T>
@@ -92,12 +92,12 @@ void BlockDeque<T>::Close() {
     // 标识关闭
     is_close_ = true;
   }
-  // 释放信号量
+  // 释放条件变量
   cond_producer_.notify_all();
   cond_consumer_.notify_all();
 }
 
-// 释放一个消费者信号量
+// 释放一个消费者条件变量
 // 这里可能存在问题，因为不能保证消费完队列所有的内容
 template<typename T>
 void BlockDeque<T>::Flush() {

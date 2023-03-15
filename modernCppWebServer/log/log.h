@@ -30,6 +30,7 @@ class Log {
   // 调用异步写，将队列内容全部写入文件
   static void FlushLogThread();
 
+  // 根据初始化的信息和当前时间，实现对可变参数内容的写入操作
   void Write(int level, const char *format, ...);
   // 将未写入文件的日志内容写入
   void Flush();

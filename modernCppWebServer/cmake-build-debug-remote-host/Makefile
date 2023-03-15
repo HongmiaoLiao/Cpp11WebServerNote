@@ -153,6 +153,78 @@ buffer/buffer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/modernCppWebServer.dir/build.make CMakeFiles/modernCppWebServer.dir/buffer/buffer.cpp.s
 .PHONY : buffer/buffer.cpp.s
 
+http/httpconn.o: http/httpconn.cpp.o
+.PHONY : http/httpconn.o
+
+# target to build an object file
+http/httpconn.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/modernCppWebServer.dir/build.make CMakeFiles/modernCppWebServer.dir/http/httpconn.cpp.o
+.PHONY : http/httpconn.cpp.o
+
+http/httpconn.i: http/httpconn.cpp.i
+.PHONY : http/httpconn.i
+
+# target to preprocess a source file
+http/httpconn.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/modernCppWebServer.dir/build.make CMakeFiles/modernCppWebServer.dir/http/httpconn.cpp.i
+.PHONY : http/httpconn.cpp.i
+
+http/httpconn.s: http/httpconn.cpp.s
+.PHONY : http/httpconn.s
+
+# target to generate assembly for a file
+http/httpconn.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/modernCppWebServer.dir/build.make CMakeFiles/modernCppWebServer.dir/http/httpconn.cpp.s
+.PHONY : http/httpconn.cpp.s
+
+http/httprequest.o: http/httprequest.cpp.o
+.PHONY : http/httprequest.o
+
+# target to build an object file
+http/httprequest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/modernCppWebServer.dir/build.make CMakeFiles/modernCppWebServer.dir/http/httprequest.cpp.o
+.PHONY : http/httprequest.cpp.o
+
+http/httprequest.i: http/httprequest.cpp.i
+.PHONY : http/httprequest.i
+
+# target to preprocess a source file
+http/httprequest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/modernCppWebServer.dir/build.make CMakeFiles/modernCppWebServer.dir/http/httprequest.cpp.i
+.PHONY : http/httprequest.cpp.i
+
+http/httprequest.s: http/httprequest.cpp.s
+.PHONY : http/httprequest.s
+
+# target to generate assembly for a file
+http/httprequest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/modernCppWebServer.dir/build.make CMakeFiles/modernCppWebServer.dir/http/httprequest.cpp.s
+.PHONY : http/httprequest.cpp.s
+
+http/httpresponse.o: http/httpresponse.cpp.o
+.PHONY : http/httpresponse.o
+
+# target to build an object file
+http/httpresponse.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/modernCppWebServer.dir/build.make CMakeFiles/modernCppWebServer.dir/http/httpresponse.cpp.o
+.PHONY : http/httpresponse.cpp.o
+
+http/httpresponse.i: http/httpresponse.cpp.i
+.PHONY : http/httpresponse.i
+
+# target to preprocess a source file
+http/httpresponse.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/modernCppWebServer.dir/build.make CMakeFiles/modernCppWebServer.dir/http/httpresponse.cpp.i
+.PHONY : http/httpresponse.cpp.i
+
+http/httpresponse.s: http/httpresponse.cpp.s
+.PHONY : http/httpresponse.s
+
+# target to generate assembly for a file
+http/httpresponse.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/modernCppWebServer.dir/build.make CMakeFiles/modernCppWebServer.dir/http/httpresponse.cpp.s
+.PHONY : http/httpresponse.cpp.s
+
 log/log.o: log/log.cpp.o
 .PHONY : log/log.o
 
@@ -237,6 +309,15 @@ help:
 	@echo "... buffer/buffer.o"
 	@echo "... buffer/buffer.i"
 	@echo "... buffer/buffer.s"
+	@echo "... http/httpconn.o"
+	@echo "... http/httpconn.i"
+	@echo "... http/httpconn.s"
+	@echo "... http/httprequest.o"
+	@echo "... http/httprequest.i"
+	@echo "... http/httprequest.s"
+	@echo "... http/httpresponse.o"
+	@echo "... http/httpresponse.i"
+	@echo "... http/httpresponse.s"
 	@echo "... log/log.o"
 	@echo "... log/log.i"
 	@echo "... log/log.s"

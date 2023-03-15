@@ -125,12 +125,57 @@ CMakeFiles/modernCppWebServer.dir/pool/sqlconnpool.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/modernCppWebServer.dir/pool/sqlconnpool.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/modernCppWebServer/tmp/tmp.jjdUAfTM05/pool/sqlconnpool.cpp -o CMakeFiles/modernCppWebServer.dir/pool/sqlconnpool.cpp.s
 
+CMakeFiles/modernCppWebServer.dir/http/httpresponse.cpp.o: CMakeFiles/modernCppWebServer.dir/flags.make
+CMakeFiles/modernCppWebServer.dir/http/httpresponse.cpp.o: /root/modernCppWebServer/tmp/tmp.jjdUAfTM05/http/httpresponse.cpp
+CMakeFiles/modernCppWebServer.dir/http/httpresponse.cpp.o: CMakeFiles/modernCppWebServer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/cmake-build-debug-remote-host/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/modernCppWebServer.dir/http/httpresponse.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/modernCppWebServer.dir/http/httpresponse.cpp.o -MF CMakeFiles/modernCppWebServer.dir/http/httpresponse.cpp.o.d -o CMakeFiles/modernCppWebServer.dir/http/httpresponse.cpp.o -c /root/modernCppWebServer/tmp/tmp.jjdUAfTM05/http/httpresponse.cpp
+
+CMakeFiles/modernCppWebServer.dir/http/httpresponse.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/modernCppWebServer.dir/http/httpresponse.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/modernCppWebServer/tmp/tmp.jjdUAfTM05/http/httpresponse.cpp > CMakeFiles/modernCppWebServer.dir/http/httpresponse.cpp.i
+
+CMakeFiles/modernCppWebServer.dir/http/httpresponse.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/modernCppWebServer.dir/http/httpresponse.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/modernCppWebServer/tmp/tmp.jjdUAfTM05/http/httpresponse.cpp -o CMakeFiles/modernCppWebServer.dir/http/httpresponse.cpp.s
+
+CMakeFiles/modernCppWebServer.dir/http/httprequest.cpp.o: CMakeFiles/modernCppWebServer.dir/flags.make
+CMakeFiles/modernCppWebServer.dir/http/httprequest.cpp.o: /root/modernCppWebServer/tmp/tmp.jjdUAfTM05/http/httprequest.cpp
+CMakeFiles/modernCppWebServer.dir/http/httprequest.cpp.o: CMakeFiles/modernCppWebServer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/cmake-build-debug-remote-host/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/modernCppWebServer.dir/http/httprequest.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/modernCppWebServer.dir/http/httprequest.cpp.o -MF CMakeFiles/modernCppWebServer.dir/http/httprequest.cpp.o.d -o CMakeFiles/modernCppWebServer.dir/http/httprequest.cpp.o -c /root/modernCppWebServer/tmp/tmp.jjdUAfTM05/http/httprequest.cpp
+
+CMakeFiles/modernCppWebServer.dir/http/httprequest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/modernCppWebServer.dir/http/httprequest.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/modernCppWebServer/tmp/tmp.jjdUAfTM05/http/httprequest.cpp > CMakeFiles/modernCppWebServer.dir/http/httprequest.cpp.i
+
+CMakeFiles/modernCppWebServer.dir/http/httprequest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/modernCppWebServer.dir/http/httprequest.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/modernCppWebServer/tmp/tmp.jjdUAfTM05/http/httprequest.cpp -o CMakeFiles/modernCppWebServer.dir/http/httprequest.cpp.s
+
+CMakeFiles/modernCppWebServer.dir/http/httpconn.cpp.o: CMakeFiles/modernCppWebServer.dir/flags.make
+CMakeFiles/modernCppWebServer.dir/http/httpconn.cpp.o: /root/modernCppWebServer/tmp/tmp.jjdUAfTM05/http/httpconn.cpp
+CMakeFiles/modernCppWebServer.dir/http/httpconn.cpp.o: CMakeFiles/modernCppWebServer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/cmake-build-debug-remote-host/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/modernCppWebServer.dir/http/httpconn.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/modernCppWebServer.dir/http/httpconn.cpp.o -MF CMakeFiles/modernCppWebServer.dir/http/httpconn.cpp.o.d -o CMakeFiles/modernCppWebServer.dir/http/httpconn.cpp.o -c /root/modernCppWebServer/tmp/tmp.jjdUAfTM05/http/httpconn.cpp
+
+CMakeFiles/modernCppWebServer.dir/http/httpconn.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/modernCppWebServer.dir/http/httpconn.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/modernCppWebServer/tmp/tmp.jjdUAfTM05/http/httpconn.cpp > CMakeFiles/modernCppWebServer.dir/http/httpconn.cpp.i
+
+CMakeFiles/modernCppWebServer.dir/http/httpconn.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/modernCppWebServer.dir/http/httpconn.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/modernCppWebServer/tmp/tmp.jjdUAfTM05/http/httpconn.cpp -o CMakeFiles/modernCppWebServer.dir/http/httpconn.cpp.s
+
 # Object files for target modernCppWebServer
 modernCppWebServer_OBJECTS = \
 "CMakeFiles/modernCppWebServer.dir/main.cpp.o" \
 "CMakeFiles/modernCppWebServer.dir/buffer/buffer.cpp.o" \
 "CMakeFiles/modernCppWebServer.dir/log/log.cpp.o" \
-"CMakeFiles/modernCppWebServer.dir/pool/sqlconnpool.cpp.o"
+"CMakeFiles/modernCppWebServer.dir/pool/sqlconnpool.cpp.o" \
+"CMakeFiles/modernCppWebServer.dir/http/httpresponse.cpp.o" \
+"CMakeFiles/modernCppWebServer.dir/http/httprequest.cpp.o" \
+"CMakeFiles/modernCppWebServer.dir/http/httpconn.cpp.o"
 
 # External object files for target modernCppWebServer
 modernCppWebServer_EXTERNAL_OBJECTS =
@@ -139,9 +184,12 @@ modernCppWebServer: CMakeFiles/modernCppWebServer.dir/main.cpp.o
 modernCppWebServer: CMakeFiles/modernCppWebServer.dir/buffer/buffer.cpp.o
 modernCppWebServer: CMakeFiles/modernCppWebServer.dir/log/log.cpp.o
 modernCppWebServer: CMakeFiles/modernCppWebServer.dir/pool/sqlconnpool.cpp.o
+modernCppWebServer: CMakeFiles/modernCppWebServer.dir/http/httpresponse.cpp.o
+modernCppWebServer: CMakeFiles/modernCppWebServer.dir/http/httprequest.cpp.o
+modernCppWebServer: CMakeFiles/modernCppWebServer.dir/http/httpconn.cpp.o
 modernCppWebServer: CMakeFiles/modernCppWebServer.dir/build.make
 modernCppWebServer: CMakeFiles/modernCppWebServer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/cmake-build-debug-remote-host/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable modernCppWebServer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/cmake-build-debug-remote-host/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable modernCppWebServer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/modernCppWebServer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

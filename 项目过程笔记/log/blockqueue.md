@@ -48,7 +48,7 @@ typedef duration<long long> seconds;
 
 ## 笔记
 
-阻塞模板队列类，利用锁和信号量对deque容器进行封装，实现对双端队列的阻塞访问。
+阻塞模板队列类，利用锁和条件变量对deque容器进行封装，实现对双端队列的阻塞访问。
 
 私有成员变量：
 
@@ -56,8 +56,8 @@ typedef duration<long long> seconds;
 * size_t capacity_：阻塞队列的最大容量
 * std::mutex mtx_：互斥锁，用于队列资源的互斥访问
 * bool is_close_：标识阻塞队列是否关闭
-* std::condition_variable cond_consumer_：用于消费者的信号量，用于在队列为空的时候阻塞，不为空时访问
-* std::condition_variable cond_producer_：用于生产者的信号量，用于在队列满时阻塞，不满时访问
+* std::condition_variable cond_consumer_：用于消费者的条件变量，用于在队列为空的时候阻塞，不为空时访问
+* std::condition_variable cond_producer_：用于生产者的条件变量，用于在队列满时阻塞，不满时访问
 
 有参构造函数：传入参数为阻塞队列大小，初始化阻塞队列的最大容量，关闭标识置为false
 
@@ -69,9 +69,9 @@ Clear、Front、Back、Size、Capacity、IsEmpty、IsFull的实现都是上锁�
 
 Close：关闭阻塞队列，释放所用资源
 
-* 对队列上锁后，清空队列内容，标识为关闭，释放信号量
+* 对队列上锁后，清空队列内容，标识为关闭，释放条件变量
 
-Flush：释放一个消费者信号量，用于唤醒一个消费者
+Flush：释放一个消费者条件变量，用于唤醒一个消费者
 
 Clear：清空所有队列资源
 

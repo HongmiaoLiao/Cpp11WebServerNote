@@ -24,8 +24,8 @@ class SqlConnRAII {
   }
 
  private:
-  MYSQL *sql_;
-  SqlConnPool *conn_pool_;
+  MYSQL *sql_;  // 一个与数据库的连接的指针
+  SqlConnPool *conn_pool_;  // 数据库连接池的指针
 };
 
 #endif //MODERNCPPWEBSERVER_POOL_SQLCONNRAII_H_
