@@ -13,6 +13,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/modernCppWebServer.dir/main.cpp.o.d"
   "CMakeFiles/modernCppWebServer.dir/pool/sqlconnpool.cpp.o"
   "CMakeFiles/modernCppWebServer.dir/pool/sqlconnpool.cpp.o.d"
+  "CMakeFiles/modernCppWebServer.dir/timer/heaptimer.cpp.o"
+  "CMakeFiles/modernCppWebServer.dir/timer/heaptimer.cpp.o.d"
   "modernCppWebServer"
   "modernCppWebServer.pdb"
 )

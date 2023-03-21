@@ -73,6 +73,8 @@ void *mmap(void *addr, size_t length, int prot, int flags,
 
 ## 笔记
 
+实现http响应内容的封装，并向缓冲区写入响应信息
+
 构造函数：初始化一些私有成员变量
 
 析构函数：调用UnmapFile取消文件在内存的映射
@@ -141,3 +143,6 @@ FileLen：返回响应文件的大小
 ErrorContent：添加错误的响应体信息，将message信息写入到一个html页面中后放入缓冲区
 
 Code：返回状态码，即返回私有成员变量code
+
+![http响应报文](http响应报文.webp)
+![http响应格式](http响应格式.webp)

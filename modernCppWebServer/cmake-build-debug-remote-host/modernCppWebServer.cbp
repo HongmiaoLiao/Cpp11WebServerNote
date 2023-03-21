@@ -131,6 +131,12 @@
 		<Unit filename="/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/test/test.h">
 			<Option target="modernCppWebServer"/>
 		</Unit>
+		<Unit filename="/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/timer/heaptimer.cpp">
+			<Option target="modernCppWebServer"/>
+		</Unit>
+		<Unit filename="/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/timer/heaptimer.h">
+			<Option target="modernCppWebServer"/>
+		</Unit>
 		<Unit filename="/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

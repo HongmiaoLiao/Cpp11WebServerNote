@@ -297,6 +297,30 @@ pool/sqlconnpool.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/modernCppWebServer.dir/build.make CMakeFiles/modernCppWebServer.dir/pool/sqlconnpool.cpp.s
 .PHONY : pool/sqlconnpool.cpp.s
 
+timer/heaptimer.o: timer/heaptimer.cpp.o
+.PHONY : timer/heaptimer.o
+
+# target to build an object file
+timer/heaptimer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/modernCppWebServer.dir/build.make CMakeFiles/modernCppWebServer.dir/timer/heaptimer.cpp.o
+.PHONY : timer/heaptimer.cpp.o
+
+timer/heaptimer.i: timer/heaptimer.cpp.i
+.PHONY : timer/heaptimer.i
+
+# target to preprocess a source file
+timer/heaptimer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/modernCppWebServer.dir/build.make CMakeFiles/modernCppWebServer.dir/timer/heaptimer.cpp.i
+.PHONY : timer/heaptimer.cpp.i
+
+timer/heaptimer.s: timer/heaptimer.cpp.s
+.PHONY : timer/heaptimer.s
+
+# target to generate assembly for a file
+timer/heaptimer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/modernCppWebServer.dir/build.make CMakeFiles/modernCppWebServer.dir/timer/heaptimer.cpp.s
+.PHONY : timer/heaptimer.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -327,6 +351,9 @@ help:
 	@echo "... pool/sqlconnpool.o"
 	@echo "... pool/sqlconnpool.i"
 	@echo "... pool/sqlconnpool.s"
+	@echo "... timer/heaptimer.o"
+	@echo "... timer/heaptimer.i"
+	@echo "... timer/heaptimer.s"
 .PHONY : help
 
 
