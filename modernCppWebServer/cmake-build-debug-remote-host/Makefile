@@ -57,10 +57,10 @@ RM = /root/cmake-3.24.3-linux-x86_64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/modernCppWebServer/tmp/tmp.jjdUAfTM05
+CMAKE_SOURCE_DIR = /root/WS
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/modernCppWebServer/tmp/tmp.jjdUAfTM05/cmake-build-debug-remote-host
+CMAKE_BINARY_DIR = /root/WS/cmake-build-debug-remote-host
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/modernCppWebServer/tmp/tmp.jjdUAfTM05/cmake-build-debug-remote-host/CMakeFiles /root/modernCppWebServer/tmp/tmp.jjdUAfTM05/cmake-build-debug-remote-host//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/WS/cmake-build-debug-remote-host/CMakeFiles /root/WS/cmake-build-debug-remote-host//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/modernCppWebServer/tmp/tmp.jjdUAfTM05/cmake-build-debug-remote-host/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/WS/cmake-build-debug-remote-host/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -297,6 +297,54 @@ pool/sqlconnpool.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/modernCppWebServer.dir/build.make CMakeFiles/modernCppWebServer.dir/pool/sqlconnpool.cpp.s
 .PHONY : pool/sqlconnpool.cpp.s
 
+server/epoller.o: server/epoller.cpp.o
+.PHONY : server/epoller.o
+
+# target to build an object file
+server/epoller.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/modernCppWebServer.dir/build.make CMakeFiles/modernCppWebServer.dir/server/epoller.cpp.o
+.PHONY : server/epoller.cpp.o
+
+server/epoller.i: server/epoller.cpp.i
+.PHONY : server/epoller.i
+
+# target to preprocess a source file
+server/epoller.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/modernCppWebServer.dir/build.make CMakeFiles/modernCppWebServer.dir/server/epoller.cpp.i
+.PHONY : server/epoller.cpp.i
+
+server/epoller.s: server/epoller.cpp.s
+.PHONY : server/epoller.s
+
+# target to generate assembly for a file
+server/epoller.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/modernCppWebServer.dir/build.make CMakeFiles/modernCppWebServer.dir/server/epoller.cpp.s
+.PHONY : server/epoller.cpp.s
+
+server/webserver.o: server/webserver.cpp.o
+.PHONY : server/webserver.o
+
+# target to build an object file
+server/webserver.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/modernCppWebServer.dir/build.make CMakeFiles/modernCppWebServer.dir/server/webserver.cpp.o
+.PHONY : server/webserver.cpp.o
+
+server/webserver.i: server/webserver.cpp.i
+.PHONY : server/webserver.i
+
+# target to preprocess a source file
+server/webserver.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/modernCppWebServer.dir/build.make CMakeFiles/modernCppWebServer.dir/server/webserver.cpp.i
+.PHONY : server/webserver.cpp.i
+
+server/webserver.s: server/webserver.cpp.s
+.PHONY : server/webserver.s
+
+# target to generate assembly for a file
+server/webserver.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/modernCppWebServer.dir/build.make CMakeFiles/modernCppWebServer.dir/server/webserver.cpp.s
+.PHONY : server/webserver.cpp.s
+
 timer/heaptimer.o: timer/heaptimer.cpp.o
 .PHONY : timer/heaptimer.o
 
@@ -351,6 +399,12 @@ help:
 	@echo "... pool/sqlconnpool.o"
 	@echo "... pool/sqlconnpool.i"
 	@echo "... pool/sqlconnpool.s"
+	@echo "... server/epoller.o"
+	@echo "... server/epoller.i"
+	@echo "... server/epoller.s"
+	@echo "... server/webserver.o"
+	@echo "... server/webserver.i"
+	@echo "... server/webserver.s"
 	@echo "... timer/heaptimer.o"
 	@echo "... timer/heaptimer.i"
 	@echo "... timer/heaptimer.s"

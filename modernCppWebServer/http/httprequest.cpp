@@ -5,7 +5,7 @@
 #include "httprequest.h"
 
 const std::unordered_set<std::string> HttpRequest::kDefaultHtml{
-    "/index", "/register", "login", "/welcome", "/video", "/picture"
+    "/index", "/register", "/login", "/welcome", "/video", "/picture"
 };
 
 const std::unordered_map<std::string, int> HttpRequest::kDefaultHtmlTag{
@@ -111,6 +111,7 @@ void HttpRequest::ParsePath_() {
 bool HttpRequest::ParseRequestLine_(const std::string &line) {
   // 不包含空格的连续字符+空格+不包含空格的连续字符+空格+HTTP/不包含空格的连续字符，
   // ^[^ ]* [^ ]* HTTP/[^ ]*$ 是匹配整个串的正则，加上括号应该是为了给sub_match填充对应的值
+  // std::regex patten("^([^ ]*) ([^ ]*) HTTP/([^ ]*)$");
   std::regex patten("^([^ ]*) ([^ ]*) HTTP/([^ ]*)$");
   std::smatch sub_match;
   if (std::regex_match(line, sub_match, patten)) {
@@ -271,13 +272,14 @@ bool HttpRequest::UserVerify(const std::string &name, const std::string &pwd, bo
     flag = true;
   }
   /* 原作者注释， 查询用户及密码 */
-  snprintf(order, 256, "SELECT name, password FROM user WHERE username='%s' LIMIT 1", name.c_str());
+  snprintf(order, 256, "SELECT username, passwd FROM user WHERE username='%s' LIMIT 1", name.c_str());
   LOG_DEBUG("%s", order);
 
   // 执行查询
   if (mysql_query(sql, order)) {
     // 如果查询失败（成功为0，识别非0），释放结果集
     mysql_free_result(res);
+    return false;
   }
   //
   res = mysql_store_result(sql);
@@ -308,7 +310,7 @@ bool HttpRequest::UserVerify(const std::string &name, const std::string &pwd, bo
   if (!is_login && flag == true) {
     LOG_DEBUG("register!");
     bzero(order, 256);
-    snprintf(order, 256, "INSERT INTO user(username, password) VALUES('%s', '%s')", name.c_str(), pwd.c_str());
+    snprintf(order, 256, "INSERT INTO user(username, passwd) VALUES('%s', '%s')", name.c_str(), pwd.c_str());
     LOG_DEBUG("%s", order);
     if (mysql_query(sql, order)) {
       LOG_DEBUG("Insert error!");

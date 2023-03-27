@@ -8,136 +8,150 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/cmake-build-debug-remote-host"/>
+				<Option working_dir="/root/WS/cmake-build-debug-remote-host"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j2 -f &quot;/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j2 -f &quot;/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j2 -f &quot;/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/root/WS/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/root/WS/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/root/WS/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/root/WS/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="modernCppWebServer">
-				<Option output="/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/cmake-build-debug-remote-host/modernCppWebServer" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/cmake-build-debug-remote-host"/>
+				<Option output="/root/WS/cmake-build-debug-remote-host/modernCppWebServer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/WS/cmake-build-debug-remote-host"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8"/>
+					<Add directory="/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux"/>
+					<Add directory="/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward"/>
+					<Add directory="/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
 					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/rh/devtoolset-8/root/usr/include"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j2 -f &quot;/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 modernCppWebServer"/>
-					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j2 -f &quot;/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j2 -f &quot;/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/root/WS/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 modernCppWebServer"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/root/WS/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/root/WS/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/root/WS/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="modernCppWebServer/fast">
-				<Option output="/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/cmake-build-debug-remote-host/modernCppWebServer" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/cmake-build-debug-remote-host"/>
+				<Option output="/root/WS/cmake-build-debug-remote-host/modernCppWebServer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/WS/cmake-build-debug-remote-host"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8"/>
+					<Add directory="/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux"/>
+					<Add directory="/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward"/>
+					<Add directory="/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
 					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/rh/devtoolset-8/root/usr/include"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j2 -f &quot;/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 modernCppWebServer/fast"/>
-					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j2 -f &quot;/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j2 -f &quot;/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/root/WS/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 modernCppWebServer/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/root/WS/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/root/WS/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/root/WS/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/cmake-build-debug-remote-host"/>
+				<Option working_dir="/root/WS/cmake-build-debug-remote-host"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j2 -f &quot;/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j2 -f &quot;/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j2 -f &quot;/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/root/WS/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/root/WS/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/root/WS/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/root/WS/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/cmake-build-debug-remote-host"/>
+				<Option working_dir="/root/WS/cmake-build-debug-remote-host"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j2 -f &quot;/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j2 -f &quot;/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j2 -f &quot;/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/root/WS/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/root/WS/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/root/WS/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/root/WS/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/buffer/buffer.cpp">
+		<Unit filename="/root/WS/buffer/buffer.cpp">
 			<Option target="modernCppWebServer"/>
 		</Unit>
-		<Unit filename="/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/buffer/buffer.h">
+		<Unit filename="/root/WS/buffer/buffer.h">
 			<Option target="modernCppWebServer"/>
 		</Unit>
-		<Unit filename="/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/http/httpconn.cpp">
+		<Unit filename="/root/WS/http/httpconn.cpp">
 			<Option target="modernCppWebServer"/>
 		</Unit>
-		<Unit filename="/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/http/httpconn.h">
+		<Unit filename="/root/WS/http/httpconn.h">
 			<Option target="modernCppWebServer"/>
 		</Unit>
-		<Unit filename="/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/http/httprequest.cpp">
+		<Unit filename="/root/WS/http/httprequest.cpp">
 			<Option target="modernCppWebServer"/>
 		</Unit>
-		<Unit filename="/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/http/httprequest.h">
+		<Unit filename="/root/WS/http/httprequest.h">
 			<Option target="modernCppWebServer"/>
 		</Unit>
-		<Unit filename="/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/http/httpresponse.cpp">
+		<Unit filename="/root/WS/http/httpresponse.cpp">
 			<Option target="modernCppWebServer"/>
 		</Unit>
-		<Unit filename="/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/http/httpresponse.h">
+		<Unit filename="/root/WS/http/httpresponse.h">
 			<Option target="modernCppWebServer"/>
 		</Unit>
-		<Unit filename="/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/log/blockqueue.h">
+		<Unit filename="/root/WS/log/blockqueue.h">
 			<Option target="modernCppWebServer"/>
 		</Unit>
-		<Unit filename="/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/log/log.cpp">
+		<Unit filename="/root/WS/log/log.cpp">
 			<Option target="modernCppWebServer"/>
 		</Unit>
-		<Unit filename="/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/log/log.h">
+		<Unit filename="/root/WS/log/log.h">
 			<Option target="modernCppWebServer"/>
 		</Unit>
-		<Unit filename="/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/main.cpp">
+		<Unit filename="/root/WS/main.cpp">
 			<Option target="modernCppWebServer"/>
 		</Unit>
-		<Unit filename="/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/pool/sqlconnRAII.h">
+		<Unit filename="/root/WS/pool/sqlconnRAII.h">
 			<Option target="modernCppWebServer"/>
 		</Unit>
-		<Unit filename="/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/pool/sqlconnpool.cpp">
+		<Unit filename="/root/WS/pool/sqlconnpool.cpp">
 			<Option target="modernCppWebServer"/>
 		</Unit>
-		<Unit filename="/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/pool/sqlconnpool.h">
+		<Unit filename="/root/WS/pool/sqlconnpool.h">
 			<Option target="modernCppWebServer"/>
 		</Unit>
-		<Unit filename="/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/pool/threadpool.h">
+		<Unit filename="/root/WS/pool/threadpool.h">
 			<Option target="modernCppWebServer"/>
 		</Unit>
-		<Unit filename="/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/test/test.h">
+		<Unit filename="/root/WS/server/epoller.cpp">
 			<Option target="modernCppWebServer"/>
 		</Unit>
-		<Unit filename="/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/timer/heaptimer.cpp">
+		<Unit filename="/root/WS/server/epoller.h">
 			<Option target="modernCppWebServer"/>
 		</Unit>
-		<Unit filename="/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/timer/heaptimer.h">
+		<Unit filename="/root/WS/server/webserver.cpp">
 			<Option target="modernCppWebServer"/>
 		</Unit>
-		<Unit filename="/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/CMakeLists.txt">
+		<Unit filename="/root/WS/server/webserver.h">
+			<Option target="modernCppWebServer"/>
+		</Unit>
+		<Unit filename="/root/WS/test/test.h">
+			<Option target="modernCppWebServer"/>
+		</Unit>
+		<Unit filename="/root/WS/timer/heaptimer.cpp">
+			<Option target="modernCppWebServer"/>
+		</Unit>
+		<Unit filename="/root/WS/timer/heaptimer.h">
+			<Option target="modernCppWebServer"/>
+		</Unit>
+		<Unit filename="/root/WS/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

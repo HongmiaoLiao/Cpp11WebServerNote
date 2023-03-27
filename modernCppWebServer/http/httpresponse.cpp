@@ -11,7 +11,7 @@ const std::unordered_map<std::string, std::string> HttpResponse::kSuffixType = {
     {".txt", "text/plain"},
     {".rtf", "application/rtf"},
     {".pdf", "application/pdf"},
-    {".word", "application/nsword"},
+    {".word", "application/msword"},
     {".png", "image/png"},
     {".gif", "image/gif"},
     {".jpg", "image/jpeg"},
@@ -74,6 +74,11 @@ void HttpResponse::Init(const std::string &src_dir, std::string &path,
 // 获取并拼接响应信息放入缓冲区
 void HttpResponse::MakeResponse(Buffer &buff) {
   /* 原作者注释 判断请求的资源文件 */
+  // int a =  stat((src_dir_ + path_).data(), &mm_file_stat_) ;
+  // int b = S_ISDIR(mm_file_stat_.st_mode);
+  // int c = errno;
+  // perror("stat");
+  // const char *str = (src_dir_ + path_).data();
   if (stat((src_dir_ + path_).data(), &mm_file_stat_) < 0
       || S_ISDIR(mm_file_stat_.st_mode)) {
     // 如果获取文件信息失败或者是一个目录，则code_设为404
@@ -138,7 +143,6 @@ void HttpResponse::AddHeader_(Buffer &buff) {
   } else {
     buff.Append("close\r\n");
   }
-  //
   buff.Append("Content-type: " + GetFileType_() + "\r\n");
 }
 
@@ -192,7 +196,7 @@ std::string HttpResponse::GetFileType_() {
   }
   // 如果后缀名在文件类型字典中，则返回对应文件类型
   std::string suffix = path_.substr(idx);
-  if (kSuffixType.count(suffix) == -1) {
+  if (kSuffixType.count(suffix) == 1) {
     return kSuffixType.find(suffix)->second;
   }
   return "text/plain";

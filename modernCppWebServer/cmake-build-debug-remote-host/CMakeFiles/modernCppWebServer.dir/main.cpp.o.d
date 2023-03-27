@@ -1,32 +1,25 @@
 CMakeFiles/modernCppWebServer.dir/main.cpp.o: \
  /root/modernCppWebServer/tmp/tmp.jjdUAfTM05/main.cpp \
- /usr/include/stdc-predef.h \
- /root/modernCppWebServer/tmp/tmp.jjdUAfTM05/./pool/threadpool.h \
- /usr/include/c++/4.8.2/cassert /usr/include/assert.h \
- /usr/include/features.h /usr/include/sys/cdefs.h \
- /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
- /usr/include/gnu/stubs-64.h /usr/include/c++/4.8.2/condition_variable \
- /usr/include/c++/4.8.2/chrono /usr/include/c++/4.8.2/ratio \
- /usr/include/c++/4.8.2/type_traits \
+ /usr/include/stdc-predef.h /usr/include/unistd.h /usr/include/features.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
+ /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stddef.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h \
+ /root/modernCppWebServer/tmp/tmp.jjdUAfTM05/server/webserver.h \
+ /usr/include/c++/4.8.2/unordered_map /usr/include/c++/4.8.2/utility \
  /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/os_defines.h \
  /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/cpu_defines.h \
- /usr/include/c++/4.8.2/cstdint \
- /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdint.h \
- /usr/include/stdint.h /usr/include/bits/wchar.h \
- /usr/include/c++/4.8.2/limits /usr/include/c++/4.8.2/ctime \
- /usr/include/time.h \
- /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stddef.h \
- /usr/include/bits/time.h /usr/include/bits/types.h \
- /usr/include/bits/typesizes.h /usr/include/bits/timex.h \
- /usr/include/xlocale.h /usr/include/c++/4.8.2/mutex \
- /usr/include/c++/4.8.2/tuple /usr/include/c++/4.8.2/utility \
  /usr/include/c++/4.8.2/bits/stl_relops.h \
  /usr/include/c++/4.8.2/bits/stl_pair.h \
  /usr/include/c++/4.8.2/bits/move.h \
  /usr/include/c++/4.8.2/bits/concept_check.h \
- /usr/include/c++/4.8.2/initializer_list /usr/include/c++/4.8.2/array \
- /usr/include/c++/4.8.2/stdexcept /usr/include/c++/4.8.2/exception \
+ /usr/include/c++/4.8.2/type_traits \
+ /usr/include/c++/4.8.2/initializer_list /usr/include/c++/4.8.2/tuple \
+ /usr/include/c++/4.8.2/array /usr/include/c++/4.8.2/stdexcept \
+ /usr/include/c++/4.8.2/exception \
  /usr/include/c++/4.8.2/bits/atomic_lockfree_defines.h \
  /usr/include/c++/4.8.2/bits/exception_ptr.h \
  /usr/include/c++/4.8.2/bits/exception_defines.h \
@@ -46,7 +39,10 @@ CMakeFiles/modernCppWebServer.dir/main.cpp.o: \
  /usr/include/c++/4.8.2/bits/postypes.h /usr/include/c++/4.8.2/cwchar \
  /usr/include/wchar.h /usr/include/stdio.h \
  /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdarg.h \
- /usr/include/c++/4.8.2/bits/allocator.h \
+ /usr/include/bits/wchar.h /usr/include/xlocale.h \
+ /usr/include/c++/4.8.2/cstdint \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdint.h \
+ /usr/include/stdint.h /usr/include/c++/4.8.2/bits/allocator.h \
  /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/c++allocator.h \
  /usr/include/c++/4.8.2/ext/new_allocator.h /usr/include/c++/4.8.2/new \
  /usr/include/c++/4.8.2/bits/localefwd.h \
@@ -65,8 +61,10 @@ CMakeFiles/modernCppWebServer.dir/main.cpp.o: \
  /usr/include/c++/4.8.2/ext/atomicity.h \
  /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/gthr.h \
  /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/gthr-default.h \
- /usr/include/pthread.h /usr/include/sched.h /usr/include/bits/sched.h \
- /usr/include/bits/pthreadtypes.h /usr/include/bits/setjmp.h \
+ /usr/include/pthread.h /usr/include/sched.h /usr/include/time.h \
+ /usr/include/bits/sched.h /usr/include/bits/time.h \
+ /usr/include/bits/timex.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/bits/setjmp.h \
  /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/atomic_word.h \
  /usr/include/c++/4.8.2/ext/string_conversions.h \
  /usr/include/c++/4.8.2/cstdlib /usr/include/stdlib.h \
@@ -85,54 +83,54 @@ CMakeFiles/modernCppWebServer.dir/main.cpp.o: \
  /usr/include/c++/4.8.2/bits/hash_bytes.h \
  /usr/include/c++/4.8.2/bits/basic_string.tcc \
  /usr/include/c++/4.8.2/bits/uses_allocator.h \
- /usr/include/c++/4.8.2/functional /usr/include/c++/4.8.2/typeinfo \
- /usr/include/c++/4.8.2/system_error \
- /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/error_constants.h \
- /usr/include/c++/4.8.2/memory \
- /usr/include/c++/4.8.2/bits/stl_construct.h \
- /usr/include/c++/4.8.2/ext/alloc_traits.h \
  /usr/include/c++/4.8.2/bits/alloc_traits.h \
  /usr/include/c++/4.8.2/bits/ptr_traits.h \
+ /usr/include/c++/4.8.2/bits/hashtable.h \
+ /usr/include/c++/4.8.2/bits/hashtable_policy.h \
+ /usr/include/c++/4.8.2/bits/unordered_map.h /usr/include/fcntl.h \
+ /usr/include/bits/fcntl.h /usr/include/bits/fcntl-linux.h \
+ /usr/include/bits/uio.h /usr/include/linux/falloc.h \
+ /usr/include/bits/stat.h /usr/include/assert.h /usr/include/sys/socket.h \
+ /usr/include/sys/uio.h /usr/include/bits/socket.h \
+ /usr/include/bits/socket_type.h /usr/include/bits/sockaddr.h \
+ /usr/include/asm/socket.h /usr/include/asm-generic/socket.h \
+ /usr/include/asm/sockios.h /usr/include/asm-generic/sockios.h \
+ /usr/include/netinet/in.h /usr/include/bits/in.h \
+ /usr/include/arpa/inet.h \
+ /root/modernCppWebServer/tmp/tmp.jjdUAfTM05/server/epoller.h \
+ /usr/include/sys/epoll.h /usr/include/bits/epoll.h \
+ /usr/include/c++/4.8.2/vector \
+ /usr/include/c++/4.8.2/bits/stl_construct.h \
+ /usr/include/c++/4.8.2/ext/alloc_traits.h \
  /usr/include/c++/4.8.2/bits/stl_uninitialized.h \
+ /usr/include/c++/4.8.2/bits/stl_vector.h \
+ /usr/include/c++/4.8.2/bits/stl_bvector.h \
+ /usr/include/c++/4.8.2/bits/vector.tcc \
+ /root/modernCppWebServer/tmp/tmp.jjdUAfTM05/server/../log/log.h \
+ /usr/include/c++/4.8.2/mutex /usr/include/c++/4.8.2/chrono \
+ /usr/include/c++/4.8.2/ratio /usr/include/c++/4.8.2/limits \
+ /usr/include/c++/4.8.2/ctime /usr/include/c++/4.8.2/functional \
+ /usr/include/c++/4.8.2/typeinfo /usr/include/c++/4.8.2/system_error \
+ /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/error_constants.h \
+ /usr/include/c++/4.8.2/thread /usr/include/c++/4.8.2/memory \
  /usr/include/c++/4.8.2/bits/stl_tempbuf.h \
  /usr/include/c++/4.8.2/bits/stl_raw_storage_iter.h \
  /usr/include/c++/4.8.2/ext/concurrence.h \
  /usr/include/c++/4.8.2/bits/unique_ptr.h \
  /usr/include/c++/4.8.2/bits/shared_ptr.h \
  /usr/include/c++/4.8.2/bits/shared_ptr_base.h \
- /usr/include/c++/4.8.2/backward/auto_ptr.h /usr/include/c++/4.8.2/queue \
- /usr/include/c++/4.8.2/deque /usr/include/c++/4.8.2/bits/stl_deque.h \
- /usr/include/c++/4.8.2/bits/deque.tcc /usr/include/c++/4.8.2/vector \
- /usr/include/c++/4.8.2/bits/stl_vector.h \
- /usr/include/c++/4.8.2/bits/stl_bvector.h \
- /usr/include/c++/4.8.2/bits/vector.tcc \
- /usr/include/c++/4.8.2/bits/stl_heap.h \
- /usr/include/c++/4.8.2/bits/stl_queue.h /usr/include/c++/4.8.2/thread \
- /usr/include/c++/4.8.2/iostream /usr/include/c++/4.8.2/ostream \
- /usr/include/c++/4.8.2/ios /usr/include/c++/4.8.2/bits/ios_base.h \
- /usr/include/c++/4.8.2/bits/locale_classes.h \
- /usr/include/c++/4.8.2/bits/locale_classes.tcc \
- /usr/include/c++/4.8.2/streambuf \
- /usr/include/c++/4.8.2/bits/streambuf.tcc \
- /usr/include/c++/4.8.2/bits/basic_ios.h \
- /usr/include/c++/4.8.2/bits/locale_facets.h \
- /usr/include/c++/4.8.2/cwctype /usr/include/wctype.h \
- /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/ctype_base.h \
- /usr/include/c++/4.8.2/bits/streambuf_iterator.h \
- /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/ctype_inline.h \
- /usr/include/c++/4.8.2/bits/locale_facets.tcc \
- /usr/include/c++/4.8.2/bits/basic_ios.tcc \
- /usr/include/c++/4.8.2/bits/ostream.tcc /usr/include/c++/4.8.2/istream \
- /usr/include/c++/4.8.2/bits/istream.tcc \
- /root/modernCppWebServer/tmp/tmp.jjdUAfTM05/./test/test.h \
- /root/modernCppWebServer/tmp/tmp.jjdUAfTM05/./test/../log/log.h \
- /usr/include/sys/time.h /usr/include/c++/4.8.2/cstring \
- /usr/include/string.h /usr/include/c++/4.8.2/cstdarg \
- /usr/include/sys/stat.h /usr/include/bits/stat.h \
- /root/modernCppWebServer/tmp/tmp.jjdUAfTM05/./test/../log/blockqueue.h \
- /root/modernCppWebServer/tmp/tmp.jjdUAfTM05/./test/../log/../buffer/buffer.h \
+ /usr/include/c++/4.8.2/backward/auto_ptr.h /usr/include/sys/time.h \
+ /usr/include/c++/4.8.2/cstring /usr/include/string.h \
+ /usr/include/c++/4.8.2/cstdarg /usr/include/c++/4.8.2/cassert \
+ /usr/include/sys/stat.h \
+ /root/modernCppWebServer/tmp/tmp.jjdUAfTM05/server/../log/blockqueue.h \
+ /usr/include/c++/4.8.2/condition_variable /usr/include/c++/4.8.2/deque \
+ /usr/include/c++/4.8.2/bits/stl_deque.h \
+ /usr/include/c++/4.8.2/bits/deque.tcc \
+ /root/modernCppWebServer/tmp/tmp.jjdUAfTM05/server/../log/../buffer/buffer.h \
  /usr/include/c++/4.8.2/algorithm /usr/include/c++/4.8.2/bits/stl_algo.h \
- /usr/include/c++/4.8.2/bits/algorithmfwd.h /usr/include/c++/4.8.2/random \
+ /usr/include/c++/4.8.2/bits/algorithmfwd.h \
+ /usr/include/c++/4.8.2/bits/stl_heap.h /usr/include/c++/4.8.2/random \
  /usr/include/c++/4.8.2/cmath /usr/include/math.h \
  /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h \
  /usr/include/bits/huge_vall.h /usr/include/bits/inf.h \
@@ -152,9 +150,68 @@ CMakeFiles/modernCppWebServer.dir/main.cpp.o: \
  /usr/include/c++/4.8.2/bits/stl_numeric.h /usr/include/c++/4.8.2/atomic \
  /usr/include/c++/4.8.2/bits/atomic_base.h \
  /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdbool.h \
- /usr/include/sys/uio.h /usr/include/bits/uio.h /usr/include/unistd.h \
- /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
- /usr/include/bits/confname.h /usr/include/getopt.h \
- /root/modernCppWebServer/tmp/tmp.jjdUAfTM05/./test/../pool/threadpool.h \
- /usr/include/sys/syscall.h /usr/include/asm/unistd.h \
- /usr/include/asm/unistd_64.h /usr/include/bits/syscall.h
+ /usr/include/c++/4.8.2/iostream /usr/include/c++/4.8.2/ostream \
+ /usr/include/c++/4.8.2/ios /usr/include/c++/4.8.2/bits/ios_base.h \
+ /usr/include/c++/4.8.2/bits/locale_classes.h \
+ /usr/include/c++/4.8.2/bits/locale_classes.tcc \
+ /usr/include/c++/4.8.2/streambuf \
+ /usr/include/c++/4.8.2/bits/streambuf.tcc \
+ /usr/include/c++/4.8.2/bits/basic_ios.h \
+ /usr/include/c++/4.8.2/bits/locale_facets.h \
+ /usr/include/c++/4.8.2/cwctype /usr/include/wctype.h \
+ /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/ctype_base.h \
+ /usr/include/c++/4.8.2/bits/streambuf_iterator.h \
+ /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/ctype_inline.h \
+ /usr/include/c++/4.8.2/bits/locale_facets.tcc \
+ /usr/include/c++/4.8.2/bits/basic_ios.tcc \
+ /usr/include/c++/4.8.2/bits/ostream.tcc /usr/include/c++/4.8.2/istream \
+ /usr/include/c++/4.8.2/bits/istream.tcc \
+ /root/modernCppWebServer/tmp/tmp.jjdUAfTM05/server/../timer/heaptimer.h \
+ /usr/include/c++/4.8.2/queue /usr/include/c++/4.8.2/bits/stl_queue.h \
+ /root/modernCppWebServer/tmp/tmp.jjdUAfTM05/server/../timer/../log/log.h \
+ /root/modernCppWebServer/tmp/tmp.jjdUAfTM05/server/../pool/sqlconnpool.h \
+ /usr/include/mysql/mysql.h /usr/include/mysql/field_types.h \
+ /usr/include/mysql/my_list.h /usr/include/mysql/mysql_com.h \
+ /usr/include/mysql/my_command.h /usr/include/mysql/my_compress.h \
+ /usr/include/mysql/mysql/udf_registration_types.h \
+ /usr/include/mysql/mysql/client_plugin.h \
+ /usr/include/mysql/mysql/plugin_auth_common.h \
+ /usr/include/mysql/mysql_version.h /usr/include/mysql/mysql_time.h \
+ /usr/include/mysql/errmsg.h /usr/include/semaphore.h \
+ /usr/include/bits/semaphore.h \
+ /root/modernCppWebServer/tmp/tmp.jjdUAfTM05/server/../pool/../log/log.h \
+ /root/modernCppWebServer/tmp/tmp.jjdUAfTM05/server/../pool/threadpool.h \
+ /root/modernCppWebServer/tmp/tmp.jjdUAfTM05/server/../pool/sqlconnRAII.h \
+ /root/modernCppWebServer/tmp/tmp.jjdUAfTM05/server/../pool/sqlconnpool.h \
+ /root/modernCppWebServer/tmp/tmp.jjdUAfTM05/server/../http/httpconn.h \
+ /root/modernCppWebServer/tmp/tmp.jjdUAfTM05/server/../http/../log/log.h \
+ /root/modernCppWebServer/tmp/tmp.jjdUAfTM05/server/../http/../pool/sqlconnRAII.h \
+ /root/modernCppWebServer/tmp/tmp.jjdUAfTM05/server/../http/../buffer/buffer.h \
+ /root/modernCppWebServer/tmp/tmp.jjdUAfTM05/server/../http/httprequest.h \
+ /usr/include/c++/4.8.2/unordered_set \
+ /usr/include/c++/4.8.2/bits/unordered_set.h /usr/include/c++/4.8.2/regex \
+ /usr/include/c++/4.8.2/bitset /usr/include/c++/4.8.2/iterator \
+ /usr/include/c++/4.8.2/bits/stream_iterator.h \
+ /usr/include/c++/4.8.2/locale \
+ /usr/include/c++/4.8.2/bits/locale_facets_nonio.h \
+ /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/time_members.h \
+ /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/messages_members.h \
+ /usr/include/libintl.h /usr/include/c++/4.8.2/bits/codecvt.h \
+ /usr/include/c++/4.8.2/bits/locale_facets_nonio.tcc \
+ /usr/include/c++/4.8.2/set /usr/include/c++/4.8.2/bits/stl_tree.h \
+ /usr/include/c++/4.8.2/bits/stl_set.h \
+ /usr/include/c++/4.8.2/bits/stl_multiset.h \
+ /usr/include/c++/4.8.2/sstream /usr/include/c++/4.8.2/bits/sstream.tcc \
+ /usr/include/c++/4.8.2/stack /usr/include/c++/4.8.2/bits/stl_stack.h \
+ /usr/include/c++/4.8.2/bits/regex_constants.h \
+ /usr/include/c++/4.8.2/bits/regex_error.h \
+ /usr/include/c++/4.8.2/bits/regex_cursor.h \
+ /usr/include/c++/4.8.2/bits/regex_nfa.h \
+ /usr/include/c++/4.8.2/bits/regex_nfa.tcc \
+ /usr/include/c++/4.8.2/bits/regex_compiler.h \
+ /usr/include/c++/4.8.2/bits/regex_grep_matcher.h \
+ /usr/include/c++/4.8.2/bits/regex_grep_matcher.tcc \
+ /usr/include/c++/4.8.2/bits/regex.h \
+ /root/modernCppWebServer/tmp/tmp.jjdUAfTM05/server/../http/../pool/sqlconnpool.h \
+ /root/modernCppWebServer/tmp/tmp.jjdUAfTM05/server/../http/httpresponse.h \
+ /usr/include/sys/mman.h /usr/include/bits/mman.h

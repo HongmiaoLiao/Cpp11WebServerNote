@@ -1,4 +1,4 @@
-# Install script for directory: /root/modernCppWebServer/tmp/tmp.jjdUAfTM05
+# Install script for directory: /root/WS
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/objdump")
+  set(CMAKE_OBJDUMP "/opt/rh/devtoolset-8/root/bin/objdump")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/cmake-build-debug-remote-host/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/root/WS/cmake-build-debug-remote-host/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

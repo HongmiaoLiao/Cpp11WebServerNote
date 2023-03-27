@@ -54,10 +54,10 @@ RM = /root/cmake-3.24.3-linux-x86_64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/modernCppWebServer/tmp/tmp.jjdUAfTM05
+CMAKE_SOURCE_DIR = /root/WS
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/modernCppWebServer/tmp/tmp.jjdUAfTM05/cmake-build-debug-remote-host
+CMAKE_BINARY_DIR = /root/WS/cmake-build-debug-remote-host
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/modernCppWebServer.dir/clean
 CMakeFiles/modernCppWebServer.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/modernCppWebServer.dir/build.make CMakeFiles/modernCppWebServer.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/modernCppWebServer.dir/build.make CMakeFiles/modernCppWebServer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/modernCppWebServer/tmp/tmp.jjdUAfTM05/cmake-build-debug-remote-host/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target modernCppWebServer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/WS/cmake-build-debug-remote-host/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target modernCppWebServer"
 .PHONY : CMakeFiles/modernCppWebServer.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/modernCppWebServer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/modernCppWebServer/tmp/tmp.jjdUAfTM05/cmake-build-debug-remote-host/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/WS/cmake-build-debug-remote-host/CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/modernCppWebServer.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/modernCppWebServer/tmp/tmp.jjdUAfTM05/cmake-build-debug-remote-host/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/WS/cmake-build-debug-remote-host/CMakeFiles 0
 .PHONY : CMakeFiles/modernCppWebServer.dir/rule
 
 # Convenience name for target.

@@ -24,7 +24,7 @@ class ThreadPool {
     assert(thread_count > 0);
     // 使用一个循环逐个初始化所有线程
     for (size_t i = 0; i < thread_count; ++i) {
-      std::thread([pool = pool_] {
+      std::thread([pool = pool_]  {
         std::unique_lock<std::mutex> locker(pool->mtx); // 这里上锁
         while (true) {
           if (!pool->tasks.empty()) {
